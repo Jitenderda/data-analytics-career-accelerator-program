@@ -1,15 +1,30 @@
 # Python and Pandas
 
-This folder contains my Python and Pandas learning notes, exercises, and notebooks.
+This folder contains my Python and Pandas learning work as part of the Data Analytics Career Accelerator Program.
 
-Topics covered:
+## Progress
 
-- Python basics
-- Dictionaries and lists
-- Pandas DataFrames
-- Data inspection
-- Calculations
-- Filtering
-- Sorting
-- Grouping data
-- Business observations
+### Day 1 — Python and Pandas Basics
+
+- Imported Pandas
+- Created a dictionary
+- Created a DataFrame
+- Inspected rows, columns, and data types
+- Calculated totals, averages, and maximum values
+- Sorted and filtered data
+- Created a calculated column
+- Wrote a business observation
+
+### Day 2 — Grouping Data with Pandas
+
+- Created a DataFrame with repeated vehicle models and regions
+- Grouped revenue by vehicle model
+- Calculated total units sold by vehicle model
+- Grouped revenue by region
+- Interpreted regional revenue performance
+- Wrote a business recommendation
+
+## Files
+
+- `Week_1_Python_Data_Analysis.ipynb` — Notebook containing the code and analysis
+- `practice_notes.md` — Learning notes and reflections
