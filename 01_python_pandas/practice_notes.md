@@ -36,8 +36,7 @@ All three vehicle models generated the same revenue per unit of 30,000. Therefor
 
 - A dictionary is not yet a DataFrame.
 - A DataFrame is created using `pd.DataFrame(data)`.
-- `df.shape` returns values in this order:
-```text(rows, columns).
+- `df.shape` returns values in this order:(rows, columns).
 
 ## Day 2 — Grouping Data with Pandas
 
