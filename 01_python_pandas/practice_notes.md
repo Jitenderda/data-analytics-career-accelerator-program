@@ -90,3 +90,56 @@ Grouping data helps compare performance across categories such as vehicle models
 ### Personal reflection
 
 I learned how to group data and calculate totals using Pandas. I also practiced explaining numerical results in business language instead of only looking at the numbers.
+
+---
+
+## Day 3 — Sorting and Visualizing Data
+
+### Topics covered
+
+- Sorted grouped revenue results from highest to lowest.
+- Learned that grouped results can initially appear as a Pandas Series.
+- Used `reset_index()` to convert the index into a normal column.
+- Created a clean DataFrame containing Region and Revenue.
+- Introduced Matplotlib for data visualization.
+- Created a bar chart using regional revenue.
+- Added a chart title and axis labels.
+- Converted revenue from rupees into lakhs for easier interpretation.
+- Interpreted the bar chart using business language.
+
+### Sorting result
+
+The regional revenue was sorted in descending order:
+
+| Region | Revenue |
+|---|---:|
+| Noida | 960,000 |
+| Delhi | 660,000 |
+| Gurugram | 450,000 |
+| Sonipat | 240,000 |
+
+### Revenue in lakhs
+
+| Region | Revenue in Lakhs |
+|---|---:|
+| Noida | 9.6 |
+| Delhi | 6.6 |
+| Gurugram | 4.5 |
+| Sonipat | 2.4 |
+
+### Important learning
+
+The chart initially showed scientific notation because the values were large and were measured in rupees. The revenue was divided by 100,000 to display it in lakhs, making the chart easier to understand.
+
+For example:
+
+- 960,000 rupees = 9.6 lakhs
+- 660,000 rupees = 6.6 lakhs
+
+### Day 3 business observation
+
+Noida has the highest revenue, while Sonipat has the lowest revenue. The business should investigate the reasons for Sonipat’s lower sales, including product demand, product availability, dealer performance, pricing, and promotional activity. After identifying the main cause, the company can take targeted actions such as improving product availability, supporting dealers, or running suitable promotional campaigns in the region.
+
+### Personal reflection
+
+I learned how to sort grouped results and convert them into a clean DataFrame. I also created my first bar chart using Matplotlib and learned how to present large revenue values in lakhs for easier business interpretation.
