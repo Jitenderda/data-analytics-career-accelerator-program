@@ -1,5 +1,6 @@
 - # Python and Pandas Practice Notes
 
+---
 ## Day 1 — Python and Pandas Basics
 
 ### Topics covered
