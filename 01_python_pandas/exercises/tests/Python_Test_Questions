@@ -1,1 +1,19 @@
+# Python and Pandas Tests — Questions and Answers
 
+## Day 1 Test
+
+### Question 1
+
+What does this line do?
+
+```python
+import pandas as pd
+
+### Question 2
+What is the purpose of this code?
+data = {
+    "Vehicle Model": ["A1", "B1", "C1"],
+    "UnitSold": [12, 10, 8],
+    "Revenue": [360000, 300000, 240000]
+}
+Explain what data, the curly brackets {}, the column names, and the square brackets [] represent.
