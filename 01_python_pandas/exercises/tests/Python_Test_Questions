@@ -1,19 +1,138 @@
-#Python and Pandas Tests — Questions and Answers
+File 1: Python_Test_Questions.md
+Markdown
 
-##Day 1 Test
+# Python and Pandas Test Questions
 
-###Question 1
+## Day 1 Test
+
+### Question 1 of 8
 
 What does this line do?
 
 ```python
 import pandas as pd
+Please explain it in your own words.
 
-### Question 2
+Question 2 of 8
 What is the purpose of this code?
+
+Python
+
 data = {
     "Vehicle Model": ["A1", "B1", "C1"],
     "UnitSold": [12, 10, 8],
     "Revenue": [360000, 300000, 240000]
 }
 Explain what data, the curly brackets {}, the column names, and the square brackets [] represent.
+
+Question 3 of 8
+What does this line do?
+
+Python
+
+df = pd.DataFrame(data)
+Also explain what df represents after this line runs.
+
+Question 4 of 8
+If a DataFrame contains 5 rows and 4 columns, what will this code return?
+
+Python
+
+df.shape
+What do the two numbers represent?
+
+Question 5 of 8
+What information does this code provide?
+
+Python
+
+df.info()
+Name at least three things it can show us.
+
+Question 6 of 8
+Assume the DataFrame has a column named Revenue.
+
+Write the Pandas code to calculate the total revenue.
+
+Use this format:
+
+Python
+
+df[...].sum()
+Question 7 of 8
+What is the difference between these two methods?
+
+Python
+
+df["Revenue"].mean()
+and
+
+Python
+
+df["Revenue"].max()
+Explain what each one calculates.
+
+Question 8 of 8
+What does this code do?
+
+Python
+
+df[df["Revenue"] > 300000]
+Explain:
+
+What does df["Revenue"] > 300000 produce?
+What does the outer df[...] do?
+Day 2 Test
+A separate formal Day 2 test has not been conducted yet.
+
+Day 3 Test
+Question 1 of 6
+After grouping revenue by region, why did we use:
+
+Python
+
+reset_index()
+Explain what changed in the result after using it.
+
+Question 2 of 6
+What does this argument do?
+
+Python
+
+ascending=False
+Why did we use it when sorting regional revenue?
+
+Question 3 of 6
+What is Matplotlib, and what does plt represent when we write:
+
+Python
+
+import matplotlib.pyplot as plt
+Question 4 of 6
+In this chart code:
+
+Python
+
+plt.bar(
+    regional_revenue_df["Region"],
+    regional_revenue_df["Revenue"]
+)
+What does each of these two parts represent?
+
+regional_revenue_df["Region"]
+regional_revenue_df["Revenue"]
+Question 5 of 6
+Why did we divide Revenue by 100000 before creating the chart?
+
+Explain what happens to a value such as 960000.
+
+Question 6 of 6
+What does this code do?
+
+Python
+
+plt.title("Revenue by Region")
+plt.xlabel("Region")
+plt.ylabel("Revenue (₹ Lakhs)")
+plt.show()
+Explain the purpose of each line.
