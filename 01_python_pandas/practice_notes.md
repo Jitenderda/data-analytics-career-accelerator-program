@@ -40,3 +40,56 @@ All three vehicle models generated the same revenue per unit of 30,000. Therefor
 
 ```text
 (rows, columns)
+
+## Day 2 — Grouping Data with Pandas
+
+### Topics covered
+
+- Created a second dataset with repeated vehicle models and different regions.
+- Converted the dictionary into a Pandas DataFrame.
+- Learned why repeated categories are useful for grouping analysis.
+- Grouped revenue by vehicle model.
+- Calculated total units sold by vehicle model.
+- Grouped revenue by region.
+- Calculated total revenue for each region.
+- Used grouped results to identify the highest- and lowest-performing regions.
+- Converted numerical results into a business recommendation.
+
+### Results
+
+#### Total revenue by vehicle model
+
+| Vehicle Model | Total Revenue |
+|---|---:|
+| A1 | 900,000 |
+| B1 | 750,000 |
+| C1 | 660,000 |
+
+#### Total units sold by vehicle model
+
+| Vehicle Model | Total Units Sold |
+|---|---:|
+| A1 | 30 |
+| B1 | 25 |
+| C1 | 22 |
+
+#### Total revenue by region
+
+| Region | Total Revenue |
+|---|---:|
+| Delhi | 660,000 |
+| Gurugram | 450,000 |
+| Noida | 960,000 |
+| Sonipat | 240,000 |
+
+### Day 2 business observation
+
+Noida generated the highest revenue at 960,000, while Sonipat generated the lowest revenue at 240,000. The business should investigate the reasons for Sonipat’s lower performance, such as demand, dealer coverage, product availability, pricing, or promotional activity. Based on the findings, targeted promotional or dealer-support activities could be considered.
+
+### Important learning
+
+Grouping data helps compare performance across categories such as vehicle models and regions. However, a lower result does not immediately explain the reason for poor performance. Further analysis is needed before making a final business decision.
+
+### Personal reflection
+
+I learned how to group data and calculate totals using Pandas. I also practiced explaining numerical results in business language instead of only looking at the numbers.
