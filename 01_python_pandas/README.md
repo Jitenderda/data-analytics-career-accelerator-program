@@ -24,7 +24,15 @@ This folder contains my Python and Pandas learning work as part of the Data Anal
 - Interpreted regional revenue performance
 - Wrote a business recommendation
 
+### Day 3 — Sorting and Basic Visualization
+
+- Sorted grouped revenue results
+- Converted a grouped Series into a DataFrame
+- Created a regional revenue bar chart
+- Displayed revenue in lakhs
+- Interpreted the chart using business language
+
 ## Files
 
-- `Week_1_Python_Data_Analysis.ipynb` — Notebook containing the code and analysis
+- `exercises/Week_1_Python_Data_Analysis.ipynb` — Notebook containing the code and analysis
 - `practice_notes.md` — Learning notes and reflections
