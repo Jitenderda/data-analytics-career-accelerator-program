@@ -28,6 +28,10 @@
 - Filtered rows based on a condition
 - Created a calculated column for revenue per unit
 
+### Day 1 business observation
+
+All three vehicle models generated the same revenue per unit of 30,000. Therefore, the difference in total revenue was caused by the number of units sold rather than the revenue earned per unit.
+
 ### Important corrections
 
 - A dictionary is not yet a DataFrame.
