@@ -1,17 +1,38 @@
-# Practice Notes
+- # Python and Pandas Practice Notes
 
-## Session 1
+## Day 1 — Python and Pandas Basics
 
-- Learned how to import Pandas.
-- Created a dictionary.
-- Converted a dictionary into a DataFrame.
-- Learned `df.shape`, `df.info()`, and `df.describe()`.
-- Learned how to calculate total and average revenue.
-- Practiced filtering and sorting.
-- Created a calculated column.
-- Started using `groupby()`.
+### Topics covered
 
-## Questions and corrections
+- Imported the Pandas library using `import pandas as pd`
+- Learned that `pd` is an alias for Pandas
+- Created a Python dictionary containing vehicle data
+- Learned about:
+  - Dictionaries
+  - Keys
+  - Lists
+  - Values
+- Converted a dictionary into a Pandas DataFrame
+- Learned that `df` is commonly used as the name of a DataFrame
+- Checked the size of a DataFrame using `df.shape`
+- Checked column names using `df.columns`
+- Inspected DataFrame information using `df.info()`
+- Reviewed numerical data using `df.describe()`
+- Selected a column from a DataFrame
+- Calculated:
+  - Total revenue
+  - Total units sold
+  - Average revenue
+  - Maximum revenue
+- Sorted data by revenue
+- Filtered rows based on a condition
+- Created a calculated column for revenue per unit
 
-- `df.shape` returns rows first and columns second.
-- A dictionary is converted into a DataFrame using `pd.DataFrame(data)`.
+### Important corrections
+
+- A dictionary is not yet a DataFrame.
+- A DataFrame is created using `pd.DataFrame(data)`.
+- `df.shape` returns values in this order:
+
+```text
+(rows, columns)
