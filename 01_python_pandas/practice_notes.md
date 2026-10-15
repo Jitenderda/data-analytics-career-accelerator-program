@@ -174,3 +174,16 @@ Today I learned how to clean a DataFrame before using it for analysis. I practic
 I also learned how to identify and remove duplicate records. I checked data types, converted the Salary column to integer, added a new column, and converted text dates into proper date values.
 
 This session helped me understand that data cleaning is an important step before analysis because missing values, duplicates, and incorrect data types can affect the accuracy of the results.
+
+---
+
+## Day 5 — Exploratory Data Analysis
+
+### Topics planned
+
+- Understanding exploratory data analysis
+- Reviewing cleaned data
+- Summarizing numerical columns
+- Grouping data for business analysis
+- Comparing departments
+- Creating business observations
