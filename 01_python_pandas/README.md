@@ -32,6 +32,17 @@ This folder contains my Python and Pandas learning work as part of the Data Anal
 - Displayed revenue in lakhs
 - Interpreted the chart using business language
 
+### Day 4 — Data Cleaning and Missing Values
+
+- Checked and handled missing values
+- Filled missing text using `fillna()`
+- Filled missing salary using the median
+- Detected and removed duplicate records
+- Checked data types using `dtypes`
+- Converted Salary to integer
+- Added a date column
+- Converted text dates using `pd.to_datetime()`
+
 ## Files
 
 - `exercises/Week_1_Python_Data_Analysis.ipynb` — Notebook containing the code and analysis
