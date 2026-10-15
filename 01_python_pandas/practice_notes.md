@@ -143,3 +143,34 @@ Noida has the highest revenue, while Sonipat has the lowest revenue. The busines
 ### Personal reflection
 
 I learned how to sort grouped results and convert them into a clean DataFrame. I also created my first bar chart using Matplotlib and learned how to present large revenue values in lakhs for easier business interpretation.
+
+---
+
+## Day 4 — Data Cleaning and Missing Values
+
+### Part 1 — Missing Values and Duplicate Records
+
+- Learned what missing values are.
+- Understood the difference between `None`, `NaN`, empty text, and `0`.
+- Detected missing values using `isna()`.
+- Filled a missing City value with `Unknown`.
+- Filled a missing Salary value using the median.
+- Detected duplicate records using `duplicated()`.
+- Removed duplicate records using `drop_duplicates()`.
+- Verified that the cleaned DataFrame has no missing or duplicate values.
+
+### Part 2 — Data Types and Type Conversion
+
+- Checked column data types using `dtypes`.
+- Converted Salary from `float64` to `int64`.
+- Added a new `Join_Date` column.
+- Converted text dates using `pd.to_datetime()`.
+- Learned that correct data types are important for accurate analysis.
+
+### Day 4 Reflection
+
+Today I learned how to clean a DataFrame before using it for analysis. I practiced finding missing values, replacing a missing city with `Unknown`, and filling a missing salary with the median.
+
+I also learned how to identify and remove duplicate records. I checked data types, converted the Salary column to integer, added a new column, and converted text dates into proper date values.
+
+This session helped me understand that data cleaning is an important step before analysis because missing values, duplicates, and incorrect data types can affect the accuracy of the results.
