@@ -43,6 +43,10 @@ This folder contains my Python and Pandas learning work as part of the Data Anal
 - Added a date column
 - Converted text dates using `pd.to_datetime()`
 
+  ### Day 5 — Exploratory Data Analysis
+
+- In progress
+
 ## Files
 
 - `exercises/Week_1_Python_Data_Analysis.ipynb` — Notebook containing the code and analysis
