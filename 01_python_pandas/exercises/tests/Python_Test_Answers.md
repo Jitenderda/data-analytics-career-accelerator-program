@@ -260,3 +260,94 @@ displays the chart.
 ### Day 3 Result
 
 Score: 10/12 — 83%
+
+---
+
+## Day 4 Answers
+
+### Answer 1
+
+- `None` represents a missing or unknown value.
+- `""` is an empty text string. It looks blank, but Pandas may not automatically treat it as missing.
+- `0` is a real numerical value equal to zero, not automatically a missing value.
+
+### Answer 2
+
+`isna()` checks each cell for a missing value and returns `True` or `False`.
+
+`sum()` counts the `True` values and gives the total number of missing values in each column.
+
+### Answer 3
+
+```python
+df3["City"] = df3["City"].fillna("Unknown")
+```
+
+replaces missing values in the City column with `"Unknown"`.
+
+We used `"Unknown"` because City is a text column and the actual city was not available.
+
+### Answer 4
+
+Salary is a numerical column, so `"Unknown"` would not be suitable.
+
+A value of `0` means zero salary, not missing salary.
+
+The median provides a central value based on the other salaries and is often safer than the average when values may contain unusually high or low amounts.
+
+### Answer 5
+
+A duplicate record is a complete row that appears more than once with the same values.
+
+For practice, we copied the cleaned `df3` DataFrame and added a copy of its first row to create `df4`.
+
+### Answer 6
+
+```python
+df4.duplicated()
+```
+
+returns a Boolean Series:
+
+- `True` for duplicate rows
+- `False` for non-duplicate rows
+
+```python
+df4.duplicated().sum()
+```
+
+counts the `True` values and returns the total number of duplicate rows.
+
+### Answer 7
+
+```python
+drop_duplicates()
+```
+
+removes repeated rows from a DataFrame.
+
+We used it to create `df4_clean` without duplicate employee records, so the same record would not be counted twice.
+
+### Answer 8
+
+```python
+df4_clean.dtypes
+```
+
+shows the data type of every column.
+
+```python
+df4_clean["Salary"].astype(int)
+```
+
+converts the Salary column to an integer type.
+
+```python
+pd.to_datetime(df4_clean["Join_Date"])
+```
+
+converts the Join_Date column from text into a proper date-time type.
+
+### Day 4 Result
+
+Score: 14/16 — 87.5%
