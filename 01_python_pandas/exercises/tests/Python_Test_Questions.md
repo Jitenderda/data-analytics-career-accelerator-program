@@ -232,3 +232,102 @@ plt.show()
 ```
 
 Explain the purpose of each line.
+
+---
+
+## Day 4 Test
+
+### Question 1 of 8
+
+What is the difference between these three values in a Pandas DataFrame?
+
+```python
+None
+```
+
+```python
+""
+```
+
+```python
+0
+```
+
+Explain how Pandas generally interprets each one.
+
+### Question 2 of 8
+
+What does this code do?
+
+```python
+df3.isna().sum()
+```
+
+Explain the purpose of:
+
+1. `isna()`
+2. `sum()`
+
+### Question 3 of 8
+
+What does this code do?
+
+```python
+df3["City"] = df3["City"].fillna("Unknown")
+```
+
+Why did we use `"Unknown"` for the City column?
+
+### Question 4 of 8
+
+Why did we use the median to fill the missing Salary value instead of using `"Unknown"` or `0`?
+
+Explain your answer.
+
+### Question 5 of 8
+
+What is a duplicate record?
+
+How did we create an intentional duplicate row in `df4` for practice?
+
+### Question 6 of 8
+
+What is the difference between these two expressions?
+
+```python
+df4.duplicated()
+```
+
+and
+
+```python
+df4.duplicated().sum()
+```
+
+Explain what each one returns.
+
+### Question 7 of 8
+
+What does this method do?
+
+```python
+drop_duplicates()
+```
+
+Why did we use it when creating `df4_clean`?
+
+### Question 8 of 8
+
+Explain the purpose of each of these:
+
+```python
+df4_clean.dtypes
+```
+
+```python
+df4_clean["Salary"].astype(int)
+```
+
+```python
+pd.to_datetime(df4_clean["Join_Date"])
+```
