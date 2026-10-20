@@ -179,11 +179,48 @@ This session helped me understand that data cleaning is an important step before
 
 ## Day 5 — Exploratory Data Analysis
 
-### Topics planned
+### Topics covered
 
-- Understanding exploratory data analysis
-- Reviewing cleaned data
-- Summarizing numerical columns
-- Grouping data for business analysis
-- Comparing departments
-- Creating business observations
+- Reviewed a cleaned DataFrame.
+- Checked the number of rows and columns.
+- Reviewed column names and data types.
+- Confirmed that no missing values remained.
+- Used `describe()` to summarize numerical and date columns.
+- Compared average salary and median salary.
+- Identified the highest and lowest salary.
+- Extracted the year and month from a date column.
+- Found the earliest and latest joining dates.
+- Used `idxmax()` to find the row containing the highest salary.
+- Used `.loc` to display selected values from that row.
+- Converted analysis results into business observations.
+
+### Data overview
+
+- Rows: 5
+- Columns: 5
+- Year of records: 2023
+- Date range: 15 January 2023 to 12 May 2023
+- Missing values: 0
+
+### Salary summary
+
+- Average salary: 52,900
+- Median salary: 52,500
+- Highest salary: 65,000
+- Lowest salary: 42,000
+- Salary difference: 13,000
+
+### Highest-paid employee
+
+- Employee: Arjan
+- Salary: 65,000
+
+### Date-based observation
+
+The data covers a five-month period from January to May 2023. Since all records belong to 2023, the dataset represents only part of one year. It is therefore limited for analyzing a complete annual trend. At least one full year of data would be more suitable for studying seasonal or yearly patterns.
+
+### Day 5 Reflection
+
+Today I learned how to explore a cleaned DataFrame using summary statistics and date analysis. I practiced comparing the average and median, finding the minimum and maximum values, and identifying the highest-paid employee using `idxmax()` and `.loc`.
+
+I also learned how to extract the year and month from a date column and how to identify the earliest and latest dates. This helped me understand that exploratory data analysis is not only about calculating numbers; it also involves checking the time period and limitations of the data before making conclusions.
