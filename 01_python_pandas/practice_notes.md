@@ -224,3 +224,9 @@ The data covers a five-month period from January to May 2023. Since all records 
 Today I learned how to explore a cleaned DataFrame using summary statistics and date analysis. I practiced comparing the average and median, finding the minimum and maximum values, and identifying the highest-paid employee using `idxmax()` and `.loc`.
 
 I also learned how to extract the year and month from a date column and how to identify the earliest and latest dates. This helped me understand that exploratory data analysis is not only about calculating numbers; it also involves checking the time period and limitations of the data before making conclusions.
+
+### Day 5 Test Result
+
+Score: 12/16 — 75%
+
+The test helped me understand the difference between exploratory data analysis, data cleaning, mean, median, percentiles, date ranges, and sample-size limitations. I also practiced identifying the row containing the highest salary using `idxmax()` and `.loc`.
