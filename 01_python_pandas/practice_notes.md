@@ -230,3 +230,16 @@ I also learned how to extract the year and month from a date column and how to i
 Score: 12/16 — 75%
 
 The test helped me understand the difference between exploratory data analysis, data cleaning, mean, median, percentiles, date ranges, and sample-size limitations. I also practiced identifying the row containing the highest salary using `idxmax()` and `.loc`.
+
+---
+
+## Day 6 — Python Mini-Project
+
+### Topics planned
+
+- Apply the complete data-analysis workflow
+- Inspect a larger dataset
+- Clean the data
+- Explore patterns and summaries
+- Create visualizations
+- Write business recommendations
