@@ -351,3 +351,20 @@ converts the Join_Date column from text into a proper date-time type.
 ### Day 4 Result
 
 Score: 14/16 — 87.5%
+
+---
+
+## Day 5 Answers
+
+### Day 5 Result
+
+Score: 12/16 — 75%
+
+### Important Corrections
+
+- `describe()` provides statistical summaries; it does not show the DataFrame schema.
+- Mean and median are different values.
+- The median salary was 52,500.
+- 55,000 was the 75th percentile.
+- `idxmax()` finds the row index of the maximum value.
+- A small sample size is also a limitation, not only a short date range.
