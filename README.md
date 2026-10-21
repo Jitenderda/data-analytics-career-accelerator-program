@@ -21,7 +21,8 @@ My target is to transition into a Data Analyst role by building practical skills
 - [x] Python and Pandas — Day 2 completed
 - [x] Python and Pandas — Day 3 completed
 - [x] Python and Pandas — Day 4 completed 
-
+- [x] Python and Pandas — Day 5 completed
+      
 ### Python files
 
 - `01_python_pandas/practice_notes.md`
