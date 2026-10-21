@@ -331,3 +331,72 @@ df4_clean["Salary"].astype(int)
 ```python
 pd.to_datetime(df4_clean["Join_Date"])
 ```
+---
+
+## Day 5 Test
+
+### Question 1 of 8
+
+What is Exploratory Data Analysis, or EDA?
+
+Explain:
+
+1. What is the purpose of EDA?
+2. What types of things do we examine during EDA?
+
+### Question 2 of 8
+
+What information does this code provide?
+
+```python
+df4_clean.describe()
+```
+
+Name at least four types of information it can show.
+
+### Question 3 of 8
+
+What is the difference between the mean and the median?
+
+Use the salary data from our exercise in your explanation.
+
+### Question 4 of 8
+
+What did this code help us find?
+
+```python
+df4_clean["Join_Date"].dt.year
+```
+
+And what result did we get for all five records?
+
+### Question 5 of 8
+
+What did this code help us find?
+
+```python
+df4_clean["Salary"].idxmax()
+```
+
+How did we use its result to identify the highest-paid employee?
+
+### Question 6 of 8
+
+What were the earliest and latest dates in the `Join_Date` column?
+
+What period did the data cover?
+
+### Question 7 of 8
+
+Why is this dataset limited for analyzing a complete yearly trend?
+
+What type of additional data would make the analysis stronger?
+
+### Question 8 of 8
+
+Based on the salary analysis, write one business observation that includes:
+
+1. The average salary
+2. The median salary
+3. The highest-paid employee
+4. One limitation of this salary analysis due to the small dataset size
