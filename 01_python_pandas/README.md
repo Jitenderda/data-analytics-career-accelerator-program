@@ -45,7 +45,12 @@ This folder contains my Python and Pandas learning work as part of the Data Anal
 
   ### Day 5 — Exploratory Data Analysis
 
-- In progress
+- Completed
+- Reviewed summary statistics
+- Compared mean and median
+- Extracted year and month from dates
+- Analyzed date coverage and limitations
+- Identified the highest-paid employee
 
 ## Files
 
